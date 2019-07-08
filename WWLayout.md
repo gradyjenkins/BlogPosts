@@ -99,7 +99,7 @@ One function that is incredibly powerful is `fill()`. `fill` comes with a couple
 
 ### Evolution
 
-The next big thing is being able to tag constraints to easily switch between various layouts dynamically.  This happens to open up the ability to specify constraints per size class, so that your layout can automatically change when a device is rotated, for example.  There is a PR open that adds both of these features - it currently needs some use-case testing and documentation, but is otherwise ready to go.
+Just like any other open source project, WWLayout is constantly evolving to support new use cases. The evolution roadmap currently has tagging constraints to easily switch between various layouts dynamically as the next big update. This happens to open up the ability to specify constraints per size class, so that your layout can automatically change when a device is rotated, for example. Both of these features are expected to be added soon as they are currently are going through some testing at the time of writing. I'll include a GitHub link at the end if anyone has any features they would like to see added.
 
 ## Conclusion
 
