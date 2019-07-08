@@ -47,8 +47,9 @@ override func viewDidLoad() {
     button.layout.center(in: .superview)
 }
 ```
-
-![Xcode simulator image](https://i.imgur.com/9BqYo60.png)
+<p align='center'>
+    <img src='https://i.imgur.com/9BqYo60.png'>
+</p>
 
 A slightly more complicated view with two labels and a button:
 ```swift
@@ -70,7 +71,9 @@ button.layout
     .fillWidth(of: .superview, maximum: 315)
 ```
 
-![Xcode simulator image](https://imgur.com/qNJqJ1A.png)
+<p align='center'>
+    <img src='https://imgur.com/qNJqJ1A.png'>
+</p>
 
 Let's break this view down. There are three view elements, a button, and two labels. As you can see, some of the constraints above contain `.superview` as the . WWLayout provides a `.superview` convenience instead of typing out the name of whatever the parent view is.
 
